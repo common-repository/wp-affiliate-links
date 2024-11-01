@@ -1,0 +1,371 @@
+body.wpal_plugin hr {
+	height: 1px;
+	border-width: 0px;
+	color: #ddd;
+	background-color: #ddd;
+	margin-bottom: 15px;
+}
+.wpal_plugin .toggler {
+	cursor: pointer;
+}
+.wpal_plugin .toggler span.indicator {
+	font-family: monospace;
+	font-style: normal;
+}
+.wpal_plugin a.help {
+	overflow: hidden;
+	text-indent: -99999px;
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background-repeat: no-repeat;
+	background-image: url("../img/help.png");
+	vertical-align: middle;
+	margin-left: 5px;
+}
+.wpal_plugin .loading {
+	background-image: url("../img/loading.gif");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.wpal_plugin a.add-new {
+	font-size: 18px;
+	background-color: #eee;
+	cursor: pointer;
+	padding: 6px 10px 6px 10px;
+	line-height: normal;
+	font-style: normal;
+	color: #464646;
+	border-color: #bbb;
+	-moz-border-radius: 4px 4px 4px 4px;
+	border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+	font-family: "Lucida Grande",Verdana,Arial,"Bitstream Vera Sans",sans-serif;
+	text-decoration: none;
+}
+.wpal_plugin a.add-new:hover {
+	border-color: #666666;
+	color: #000;
+}
+
+.wpal_plugin .meter input[type="button"] {
+	margin: 0px;
+	padding: 0px;
+	width: 16px;
+	height: 10px;
+	-position: relative;
+	background-repeat: no-repeat;
+	background-position: center center;
+	cursor: pointer;
+	vertical-align: middle;
+}
+.wpal_plugin .meter input[type="button"].up {
+	margin-top: -14px;
+	background-image: url("../img/arr-up.gif");
+}
+.wpal_plugin .meter input[type="button"].down {
+	margin-top: 8px;
+	margin-left: -16px;
+	background-image: url("../img/arr-down.gif");
+}
+
+
+.wpal_plugin #__modal.ui-dialog-content {
+	background-color: #F9F9F9;
+}
+.wpal_plugin input.smaller-text {
+	width: 15em;
+}
+.wpal_plugin textarea.regular-text {
+	width: 33em;
+}
+.wpal_plugin textarea.code {
+	white-space: nowrap;
+}
+.wpal_plugin input.note[title] {
+	color: #999;
+}
+.wpal_plugin input.datepicker {
+	width: 10em;
+	background-image: url("../img/date-picker.gif");
+	background-repeat: no-repeat;
+	background-position: right;
+}
+.wpal_plugin .color-picker {
+	background: url("../img/color-picker-arrow.gif") no-repeat scroll right bottom transparent;
+	display: inline-block;
+	border: 1px solid #DFDFDF;
+	background-color: #FFFFFF;
+	cursor: pointer;
+	height: 20px;
+	line-height: 16px;
+	margin: 1px;
+	vertical-align: top;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	padding: 0;
+	width: 20px;
+}
+.wpal_plugin select.country {
+	width: 170px;
+}
+.wpal_plugin select.rule {
+	width: 120px;
+}
+.wpal_plugin form .warning {
+	color: red;
+}
+
+
+.wpal_plugin form .submit-buttons {
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+	.wpal_plugin form .submit-buttons input[type="submit"] {
+		font-size: 28px;
+		background-color: #eee;
+		cursor: pointer;
+		padding: 8px 12px 8px 12px;
+		line-height: normal;
+		float: right;
+	}
+.wpal_plugin form .submit-options {
+	float: left;
+	margin-right: 40px;
+}
+.wpal_plugin form[name="link"],
+.wpal_plugin form[name="settings"],
+.wpal_plugin form[name="keyword"] {
+	width: 700px;
+}
+.wpal_plugin form[name="settings"] table.form-table th {
+	vertical-align: middle;
+}
+
+.wpal_plugin form div.load-preset {
+		float: right;
+		font-size: 11px;
+		padding-top: 10px;
+	}
+.wpal_plugin form[name="settings"] div.load-preset {
+	padding-top: 24px;
+}
+	.wpal_plugin form div.load-preset a {
+		color: #777;
+	}
+	.wpal_plugin form[name="link"] div.load-preset select {
+		width: 170px;
+	}
+.wpal_plugin a.destination-set {
+	margin: 2px;
+}
+	.wpal_plugin a.destination-set span {
+		padding-right: 1.4em;
+		background-image: url("../img/arrow-green.gif");
+		background-repeat: no-repeat;
+		background-position: 100% -3px;
+	}
+	.wpal_plugin a.destination-set.empty span {
+		background-image: url("../img/arrow-red.gif");
+	}
+
+.wpal_plugin .destination-type-container {
+	padding: 4px 10px 5px 10px;
+}
+.wpal_plugin .destination-type-container.selected {
+	border: 1px solid rgb(181, 230, 29);
+	background-color: rgb(242, 251, 217);
+	padding-bottom: 10px;
+}
+
+.wpal_plugin .sub-options {
+	padding-left: 20px;
+	line-height: 24px;
+}
+
+.wpal_plugin form[name="keyword"] > table.form-table td {
+	vertical-align: top;
+	font-size: inherit;
+}
+
+.wpal_plugin table.form-table {
+	margin-bottom: 0px;
+}
+	.wpal_plugin table.form-table tr.template {
+		display: none;
+	}
+	.wpal_plugin table.form-table .sub-row {
+		padding: 0px 4px 4px 30px;
+	}
+	
+.wpal_plugin table.form-table.keywords-style,
+.wpal_plugin table.form-table.link {
+	margin-top: 0px;
+}
+	.wpal_plugin table.form-table.keywords-style th[scope="row"] {
+		width: 110px;
+	}	
+	.wpal_plugin table.form-table.keywords-style select {
+		width: 100px;
+	}
+	.wpal_plugin table.form-table.keywords-style input[type="text"] {
+		width: 78px;
+	}
+	.wpal_plugin table.form-table.keywords-style input[name="keywords_font_size"] {
+		border-right: none;
+		margin-right: 0px;
+		width: 60px;
+	}
+	.wpal_plugin table.form-table.keywords-style select[name="keywords_font_size_unit"] {
+		border-left: none;
+		margin-left: -4px;
+		-padding: 3px 2px !important;
+		vertical-align: top;
+		width: 46px;
+	}
+	
+	.wpal_plugin table.form-table.options .textarea-container {
+		padding: 4px 4px 4px 16px;
+	}
+
+	.wpal_plugin table.form-table.link th {
+		white-space: nowrap;
+		padding: 4px;
+	}
+	.wpal_plugin table.form-table.link td {
+		padding: 2px 4px;
+	}
+
+.wpal_plugin table.form-table.dest {
+	font-size: 11px;
+}
+.wpal_plugin table.form-table.dest.auto-matches {
+	width: 640px;
+	margin-left: 16px;
+}
+.wpal_plugin table.form-table.dest.by-country {
+	width: 660px;
+}
+.wpal_plugin .destination-mode-advanced table.form-table.dest.by-country {
+	width: 350px;
+}
+	.wpal_plugin table.form-table.dest.by-country th {
+		width: 180px;
+	}
+.wpal_plugin table.form-table.dest.by-rule {
+	width: 660px;
+}
+.wpal_plugin .destination-mode-advanced table.form-table.dest.by-rule {
+	width: 480px;
+}
+	.wpal_plugin table.form-table.dest.by-rule th {
+		width: 130px;
+	}
+	.wpal_plugin table.form-table.dest.by-rule td.pattern {
+		width: 190px;
+	}
+	
+	.wpal_plugin table.form-table.dest td, .wpal_plugin table.form-table.dest th {
+		padding: 0px;
+		height: 26px;
+	}
+	.wpal_plugin table.form-table.dest a {
+		color: #000000;
+	}
+	.wpal_plugin table.form-table.dest th {
+		padding-left: 10px;
+		vertical-align: middle;
+	}
+	.wpal_plugin table.form-table.dest td.action {
+		padding-left: 8px;
+		width: 20px;
+	}
+	.wpal_plugin table.form-table.dest td.action.auto {
+		padding-left: 2px;
+	}
+	.wpal_plugin table.form-table.dest.destination-set td.weight {
+		width: 65px;
+	}
+	.wpal_plugin table.form-table.dest.destination-set td.tip {
+		padding-left: 2em;
+		background-image: url("../img/help.png");
+		background-repeat: no-repeat;
+		background-position: 0px 6px;
+	}
+	.wpal_plugin table.form-table.dest.destination-set td.action.add {
+		vertical-align: top;
+		padding-top: 4px;
+	}
+
+.wpal_plugin span.loading {
+	background-image: url("../img/loading-icon.gif");
+	width: 16px;
+	display: inline-block;
+	text-indent: -9999px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.wpal_plugin table.widefat th {
+	white-space: nowrap;
+}
+.wpal_plugin table.widefat th.ASC a {
+	background-image: url("../img/screen-options-right-up.gif");
+	background-repeat: no-repeat;
+	background-position: right center;
+	padding-right: 19px;
+}
+.wpal_plugin table.widefat th.DESC a {
+	background-image: url("../img/screen-options-right.gif");
+	background-repeat: no-repeat;
+	background-position: right center;
+	padding-right: 19px;
+}
+.wpal_plugin table.widefat.wpal-admin-links th.column-slug {
+	width: 400px;
+}
+.wpal_plugin table.widefat.wpal-admin-links th.column-id {
+	width: 1px;
+}
+.wpal_plugin table.widefat.wpal-admin-statistics th {
+	width: 1px;
+}
+.wpal_plugin table.widefat.wpal-admin-statistics th.column-name {
+	width: auto;
+}
+.wpal_plugin table.widefat.wpal-admin-keywords th.column-url {
+	width: 50%;
+}
+.wpal_plugin table.widefat.wpal-admin-keywords th.column-id {
+	width: 1px;
+}
+
+.wpal_plugin .tablenav select[name="bulk-action"], .wpal_plugin .tablenav select[name="bulk-action2"] {
+    width: 130px;
+}
+.wpal_plugin .tablenav .actions.links {
+	font-size: 11px;
+} 
+
+.wpal_plugin .graph {
+	height: 160px;
+	margin: 0px 30px 10px 25px;
+}
+.wpal_plugin .graph .jqplot-axis{
+	font-size: 85%;
+}
+.wpal_plugin .graph .jqplot-highlighter-tooltip{
+	font-size: 100%;
+	z-index: 9999;
+}
+
+/* FIX: modal dialog overlay in IE 8 */
+.wpal_plugin .ui-widget-overlay {
+	position: fixed !important;
+}
+
+/* FIX: for wordpress 3.1 not to add empty space */
+.wpal_plugin .ui-dialog {
+	position: absolute !important;
+}
